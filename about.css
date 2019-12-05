@@ -1,0 +1,11 @@
+.about-container h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+  color: #b4bdc5;
+}
+
+.social-about i {
+  padding-right: 10px;
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+}
