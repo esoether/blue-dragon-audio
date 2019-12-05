@@ -52,6 +52,11 @@ h2 {
   font-size: 1.3rem;
 }
 
+.social-hero a {
+  color: #9fa5aa !important;
+  text-decoration: none;
+}
+
 .social-hero i {
   font-size: 1.25rem;
   padding-right: 20px;
