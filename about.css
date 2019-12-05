@@ -1,5 +1,10 @@
+.about-container {
+  margin-top: 150px;
+  line-height: 1.5;
+}
+
 .about-container h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 700;
   letter-spacing: 3px;
   color: #b4bdc5;
 }

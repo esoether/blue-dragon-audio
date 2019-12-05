@@ -100,18 +100,17 @@ h2 {
   font-size: 1.25rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  transition: 1s ease;
+  transition: 1.5s ease;
 }
 
 .cta:hover, .cta-button:hover {
-  background-color: rgb(255, 255, 255);
-
-  color: #2077e9!important;
+  background-color: #00bcdd;
+  color: white!important;
   text-decoration: none;
 }
 
 .cta-button-secondary {
-  
+  transition: 1s ease;
   width: max-content;
   font-weight: 700;
   color: rgba(107, 107, 107, 0.692) !important;
@@ -123,7 +122,10 @@ h2 {
   box-shadow: -0.5em 0.5em rgba(16, 24, 50, 0);
 }
 
-
+.cta-button-secondary:hover {
+  color: white!important;
+  background-color: #00bcdd;
+}
 
 .featured-blocks {
   background-color: #1b1b1b;
