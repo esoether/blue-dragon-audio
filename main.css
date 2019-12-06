@@ -1,6 +1,6 @@
 nav {
   background-color: #1b1b1b;
-  min-height: 100px;
+  height: 85px;
 }
 
 body {
@@ -55,6 +55,7 @@ h2 {
 .social-hero a {
   color: #9fa5aa !important;
   text-decoration: none;
+
 }
 
 .social-hero i {
@@ -84,6 +85,7 @@ h2 {
 .navbar-logo {
   position: absolute;
   top: 0px;
+  z-index: 999;
   height: 200px;
   left: 0;
   right: 0;
@@ -246,7 +248,12 @@ h2 {
 }
 @media screen and (max-width: 991px) {
   #navbarToggle {
-    margin-top: 130px;
+    position: absolute;
+    background-color: #1b1b1b;
+    width: 100%;
+    left: 0;
+    top: 85px;
+    padding-top: 90px;
     text-align: center;
     padding-bottom: 30px;
   }
@@ -269,9 +276,10 @@ h2 {
     margin-top: 0px !important;
   }
 
-  .social-hero i {
+  .social-hero a {
+    display: block;
     padding-right: 0;
-    padding-top: 20px;
+    padding-top: 15px;
   }
 
   .social-hero i:nth-child(1) {
