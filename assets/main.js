@@ -1,4 +1,3 @@
-$("skullgirlsModal").on("shown.bs.modal", function() {
-  $("#myInput").trigger("focus");
-  console.log("Hi");
+$(document).ready(function() {
+  console.log("Doc load");
 });
