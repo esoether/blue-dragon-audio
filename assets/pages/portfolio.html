@@ -112,6 +112,9 @@
       </nav>
     </header>
 
+    <!-----------
+      - CONTENT -
+    ------------>
     <div class="container-fluid p-0">
       <div class="main-portfolio text-center">
         <div class="container-fluid section-heading">
@@ -123,6 +126,7 @@
           <p>
             Click the buttons below to filter portfolio projects by category.
           </p>
+          <!--Selectors/Filters-->
           <div
             id="list-tab"
             role="tablist"
@@ -130,26 +134,29 @@
             style="flex-direction: row;"
           >
             <a
-              id="list-sign-list"
+              id="list-games-list"
               data-toggle="list"
-              href="#list-signs"
+              href="#list-games"
               role="tab"
-              aria-controls="signs"
+              aria-controls="games"
               class="list-group-item list-group-item-action active"
               >Games</a
             >
             <a
-              id="list-planets-list"
+              id="list-music-list"
               data-toggle="list"
-              href="#list-planets"
+              href="#list-music"
               role="tab"
-              aria-controls="planets"
+              aria-controls="music"
               class="list-group-item list-group-item-action"
               >Music</a
             >
           </div>
         </div>
 
+      <!----------
+        - MODALS -
+      ----------->
         <!-- WarToons Modal -->
         <div class="modal" id="wartoonsModal">
           <div class="modal-dialog">
@@ -523,12 +530,210 @@
           </div>
         </div>
 
+        <!--YSTK Modal-->
+        <div class="modal text-left" id="ystkModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">
+                  YSTK
+                </h4>
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <iframe
+                  width="100%"
+                  height="150"
+                  src="https://www.youtube.com/embed/lBl9LUOwxGE?start=166"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <p class="mt-2">
+                  Production and Arrangement:
+                </p>
+                <p></p>
+                <ul>
+                  <li>Track 4</li>
+                  <li>Track 10</li>
+                  <li>Track 11</li>
+                </ul>
+                <p>
+                  Performance:
+                </p>
+                <ul>
+                  <li>Track 10</li>
+                </ul>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ULTRANIMBOY-->
+        <div class="modal text-left" id="ultranimboyModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">
+                  ULTRANIMBOY
+                </h4>
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <iframe
+                  width="100%"
+                  height="166"
+                  scrolling="no"
+                  frameborder="no"
+                  allow="autoplay"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/75548734&color=%23007bff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                ></iframe>
+                <p class="mt-2">
+                  Arranged by Tony Marino
+                </p>
+                <p></p>
+                <ul>
+                  <li>Original Music by Masahiko Kondo</li>
+                  <li>from ULTRANIMBUS presents: ULTRANIMBOY</li>
+                  <li>Tony Marino (Chip artist, Cats on Mars)</li>
+                </ul>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Celestial Modal-->
+        <div class="modal text-left" id="celestialModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">
+                  Celestial
+                </h4>
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <iframe
+                  width="100%"
+                  height="166"
+                  scrolling="no"
+                  frameborder="no"
+                  allow="autoplay"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/68396443&color=%23007bff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                ></iframe>
+                <p class="mt-2">
+                  Produced by Tony Marino
+                </p>
+                <p></p>
+                <ul>
+                  <li>Original music, lyrics, and vocals by Tommy Pedrini</li>
+                  <li>Featuring Brian Baughn on Guitar</li>
+                </ul>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Remember Me Modal-->
+        <div class="modal text-left" id="remembermeModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">
+                      Remember Me (DJ Bouche Remix)
+                  </h4>
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                </div>
+  
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <iframe
+                    width="100%"
+                    height="150"
+                    src="https://www.youtube.com/embed/3femmrriJFA"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                  <p class="mt-2">
+                    Mastered by Tony Marino
+                  </p>
+                </div>
+  
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <!---------
+        - ITEMS -
+      ---------->
         <div class="container">
           <div id="nav-tabContent" class="tab-content text-light pt-2">
-            <!--Music Pane-->
+            <!--Games Pane-->
             <div
-              id="list-signs"
-              aria-labelledby="list-signs-list"
+              id="list-games"
+              aria-labelledby="list-games-list"
               role="tabpanel"
               class="tab-pane active"
             >
@@ -703,13 +908,16 @@
                 </div>
               </div>
             </div>
+
+            <!--Music Pane-->
             <div
-              id="list-planets"
-              aria-labelledby="list-planets-list"
+              id="list-music"
+              aria-labelledby="list-music-list"
               role="tabpanel"
               class="tab-pane"
             >
               <div class="row">
+                <!--YSTK Item-->
                 <div class="portfolio-item col-6 col-md-3 pb-4 pt-2">
                   <img
                     src="../img/ytsk.png"
@@ -725,15 +933,17 @@
                     Various Artists
                   </p>
                   <br />
-                  <p class="portfolio-btn">
-                    <a
-                      href="/signdetail.html"
-                      role="button"
-                      class="btn btn-secondary"
-                      >More »</a
-                    >
-                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-secondary portfolio-btn"
+                    data-toggle="modal"
+                    data-target="#ystkModal"
+                  >
+                    More »
+                  </button>
                 </div>
+
+                <!--ULTRANIMBOY Item-->
                 <div class="portfolio-item col-6 col-md-3 pb-4 pt-2">
                   <img
                     src="../img/ultranimboy.png"
@@ -749,16 +959,17 @@
                     Various Artists
                   </p>
                   <br />
-                  <p class="portfolio-btn">
-                    <a
-                      href="/signdetail.html"
-                      role="button"
-                      class="btn btn-secondary"
-                      >More »</a
-                    >
-                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-secondary portfolio-btn"
+                    data-toggle="modal"
+                    data-target="#ultranimboyModal"
+                  >
+                    More »
+                  </button>
                 </div>
 
+                <!--Celestial Item-->
                 <div class="portfolio-item col-6 col-md-3 pb-4 pt-2">
                   <img
                     src="../img/celestial.png"
@@ -774,15 +985,17 @@
                     Cats on Mars
                   </p>
                   <br />
-                  <p class="portfolio-btn">
-                    <a
-                      href="/signdetail.html"
-                      role="button"
-                      class="btn btn-secondary"
-                      >More »</a
-                    >
-                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-secondary portfolio-btn"
+                    data-toggle="modal"
+                    data-target="#celestialModal"
+                  >
+                    More »
+                  </button>
                 </div>
+
+                <!--Remember Me Item-->
                 <div class="portfolio-item col-6 col-md-3 pb-4 pt-2">
                   <img
                     src="../img/rememberme.png"
@@ -798,14 +1011,14 @@
                     Cristina Vee
                   </p>
                   <br />
-                  <p class="portfolio-btn">
-                    <a
-                      href="/signdetail.html"
-                      role="button"
-                      class="btn btn-secondary"
-                      >More »</a
-                    >
-                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-secondary portfolio-btn"
+                    data-toggle="modal"
+                    data-target="#remembermeModal"
+                  >
+                    More »
+                  </button>
                 </div>
               </div>
             </div>
