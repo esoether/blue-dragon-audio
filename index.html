@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Blue Dragon Audio</title>
+
+    <!--BOOTSTRAP-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -12,13 +14,20 @@
       crossorigin="anonymous"
     />
 
+    <!--FONT AWESOME-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <!--FONTS-->
     <link
       href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Lora&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
       rel="stylesheet"
     />
 
@@ -33,20 +42,21 @@
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
+
+    <!--BOOTSTRAP JS-->
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
 
+    <!--MAIN CSS-->
     <link rel="stylesheet" href="main.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
+    <!----------
+      - HEADER -
+    ----------->
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-dark px-4 sticky-top">
         <!--LOGO-->
@@ -89,7 +99,7 @@
           <!--NAVBAR RIGHT-->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Post-Production</a>
+              <a class="nav-link" href="demos.html">Post-Production</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Credits</a>
@@ -106,18 +116,30 @@
         </div>
       </nav>
     </header>
+    <!--------
+      - MAIN -
+    --------->
     <main>
+      <!--------
+        - HERO -
+      --------->
       <div class="container-fluid text-light hero">
+        <!--Hero Container-->
         <div class="container">
+          <!--Hero Row-->
           <div class="row mx-2 mx-md-4">
+            <!--Hero Text-->
             <div class="col-10 col-md-8 pt-md-4 mt-4 px-0">
               <p class="hero-intro mb-md-3 text-secondary mt-4">Welcome to</p>
+              <!--Hero Heading-->
               <h1>Blue Dragon Audio</h1>
+              <!--Hero Tagline-->
               <p class="hero-tagline mt-3 mt-md-4 text-secondary">
                 Los-Angeles <strong>composer</strong> and
                 <strong>sound designer:</strong>
                 <span class="text-light">Tony Marino</span>
               </p>
+              <!--Hero CTA Button-->
               <p class="d-flex justify-content-start pt-3">
                 <a
                   class="mx-0 cta cta-button p-2 px-3"
@@ -127,19 +149,25 @@
                 >
               </p>
             </div>
+            <!--Hero Social Icons-->
             <div class="col-2 col-md-4 text-right mt-4 pt-4 social-hero">
+              <!--Bandcamp-->
               <a href="https://tony379.bandcamp.com/" target="_blank"
                 ><i class="fa fa-bandcamp" aria-hidden="true"></i> </a
-              ><a
+              >
+              <!--Aries-->
+              <a
                 href="https://www.youtube.com/channel/UC7Yzok9A1h5B7WpbDXIwyHA"
                 target="_blank"
                 ><i class="fa fa-youtube-play" aria-hidden="true"></i>
               </a>
+              <!--Twitter-->
               <a
                 target="_blank"
                 href="https://twitter.com/kanpaikeitaro?lang=en"
                 ><i class="fa fa-twitter" aria-hidden="true"></i
               ></a>
+              <!--Email-->
               <a href="mailto:test@test.com"
                 ><i class="fa fa-envelope" aria-hidden="true"></i>
               </a>
@@ -148,20 +176,28 @@
         </div>
       </div>
 
+      <!-------------------
+        - FEATURED BLOCKS -
+      -------------------->
       <div class="container-fluid featured-blocks text-center text-light">
+        <!--Featured Blocks Row-->
         <div class="row m-0">
+          <!--Col 1-->
           <div class="col-3">
             <h3><i class="fa fa-volume-up" aria-hidden="true"></i></h3>
             <p>Sound Design</p>
           </div>
+          <!--Col 2-->
           <div class="col-3">
             <h3><i class="fa fa-headphones" aria-hidden="true"></i></h3>
             <p>Audio Editing</p>
           </div>
+          <!--Col 3-->
           <div class="col-3">
             <h3><i class="fa fa-gamepad" aria-hidden="true"></i></h3>
             <p>Game Audio</p>
           </div>
+          <!--Col 4-->
           <div class="col-3">
             <h3><i class="fa fa-microphone" aria-hidden="true"></i></h3>
             <p>Foley Artist</p>
@@ -169,8 +205,13 @@
         </div>
       </div>
 
+      <!-------------
+        - DEMO REEL -
+      -------------->
       <div class="container-fluid text-dark mt-4 m-md-0 p-md-0">
+        <!--Demo Row-->
         <div class="row m-0">
+          <!--Demo Video (Left)-->
           <div class="col-12 col-md-7 p-0 demo-vid">
             <iframe
               src="https://www.youtube.com/embed/k7L-En-G_aA"
@@ -179,6 +220,7 @@
               allowfullscreen
             ></iframe>
           </div>
+          <!--Demo Text (Right)-->
           <div class="col-12 col-md-5 video-text">
             <div class="text-demo">
               <h2>Listen...</h2>
@@ -186,6 +228,7 @@
                 Demo reel featuring choice examples of my sound design work for
                 video games
               </p>
+              <!--Demo CTA Button-->
               <a class="nav-link cta-button-secondary" href="#"
                 >View Portfolio</a
               >
@@ -194,45 +237,86 @@
         </div>
       </div>
 
+      <!--------------
+        - INTRO AREA -
+      --------------->
       <div class="container-fluid intro-area">
-        <!-- section-heading start -->
+        <!--Intro Area Into Container-->
         <div class="container py-4 mt-4 mt-md-0 px-0">
+          <!--Intro Area Column-->
           <div class="col-12 text-center pt-4 px-0 text-light">
+            <!--Intro Area Heading-->
             <div class="section-heading">
               <h1><strong>Tony Marino</strong></h1>
+              <!--Intro Area Subheading-->
               <h2>Sound Designer</h2>
               <div class="container intro-text mt-3">
+                <!--Intro Area Lead Text-->
                 <p class="lead">
                   I’ve been designing, editing, and engineering sound for visual
                   image industries for 7+ years.
-                </p>
-                <p class="lead">
-                  Armed with a passion for high-quality audio and
-                  problem-solving skills, I excel at providing innovative sound
-                  solutions for hit games and titles.
                 </p>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="container text-light">
+        <!--Intro Area List Container-->
+        <div class="container-fluid text-light">
+          <!--Intro Area List Row-->
           <div class="row">
-            <div class="col-12 col-md-6">
-              <ul>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Pro Tools 4</li>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Sound Forge</li>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Cakewalk</li>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Vegas Pro</li>
+            <!--Intro Area List Column-->
+            <div class="col-12 d-flex justify-content-center">
+              <!--Intro Area List-->
+              <ul class="pl-0 ml-0 d-lg-flex">
+                <li>
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> Pro
+                  Tools 4
+                </li>
+                <li>
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> Sound
+                  Forge
+                </li>
+                <li>
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                  Cakewalk
+                </li>
+                <li>
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> Vegas
+                  Pro
+                </li>
+                <li>
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> Unreal
+                  4
+                </li>
+                <li>
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> Unity
+                  3D
+                </li>
+                <li>
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> Reaper
+                </li>
+                <li>
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i> FMOD
+                </li>
               </ul>
             </div>
-            <div class="col-12 col-md-6">
-              <ul>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Unreal 4</li>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Unity 3D</li>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Reaper</li>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> FMOD</li>
-              </ul>
+            <!--Intro Area SubLead Text Container-->
+            <div class="container text-center">
+              <!--Intro Area Sublead Text-->
+              <p class="lead pt-4 pb-2 d-none d-lg-block">
+                Armed with a passion for high-quality audio and problem-solving
+                skills, I excel at providing innovative sound solutions for hit
+                games and titles.
+              </p>
+              <!--Intro Area CTA Button-->
+              <p class="mx-auto pt-4 text-center">
+                <a
+                  class="mx-0 cta cta-button p-2 px-3"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdaTkIMtPb2yQe3VSJ9J31Lc52FRAB2vZvd42y54l_jhCLtMA/viewform"
+                  target="_blank"
+                  >Contact</a
+                >
+              </p>
             </div>
           </div>
         </div>
