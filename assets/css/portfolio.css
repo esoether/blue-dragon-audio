@@ -10,8 +10,9 @@
   max-width: 200px;
 }
 
-.tab-content>.active {
-  display: flex!important;
+.tab-content > .active {
+  display: flex !important;
+  background: -webkit-linear-gradient(rgb(9, 206, 220), #3e87e6)!important;
 }
 
 .main-portfolio h5 {
@@ -30,5 +31,5 @@
 }
 
 .hypergal {
-  justify-content: flex-start!important;
+  justify-content: flex-start !important;
 }
