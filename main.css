@@ -3,6 +3,14 @@ nav {
   height: 85px;
 }
 
+.intro-area {
+  background-color: #282727;
+}
+
+.intro-area h2 {
+  font-size: 1.6rem;
+}
+
 .after-header {
   margin-top: 120px;
 }
@@ -29,20 +37,58 @@ hr {
 }
 
 @media screen and (min-width: 767px) {
-  .card-row {
-    margin: 0px;
-    font-size: 1rem;
-  }
-  .card-row iframe {
-    height: 300px;
+  .hero {
+    padding-bottom: 120px;
   }
 
-  .above-portfolio {
-    text-align: left!important;
+  .hero-intro {
+    font-size: 1.5rem;
   }
 
-  .above-portfolio .pagination {
-    justify-content: left!important;
+  .hero h1 {
+    font-size: 55px;
+    line-height: 1;
+  }
+
+  .hero-tagline {
+    font-size: 1.6rem;
+  }
+
+  .featured-blocks .col-3 h3 {
+    font-size: 40px;
+  }
+
+  .featured-blocks .col-3 p {
+    font-size: 20px;
+  }
+
+  .demo-vid iframe {
+    min-height: 375px !important;
+  }
+
+  .video-text {
+    padding: 75px 40px 40px;
+    margin-top: 0;
+  }
+
+  .video-text:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #f3f3f3;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -ms-transform: skew(12deg, 0deg);
+    -webkit-transform: skew(12deg, 0deg);
+    transform: skew(12deg, 0deg);
+  }
+  .text-demo h2 {
+    font-size: 3rem;
   }
 }
 
@@ -223,62 +269,6 @@ h2 {
 @media screen and (min-width: 567px) {
   .hero {
     padding-bottom: 100px;
-  }
-}
-
-@media screen and (min-width: 767px) {
-  .hero {
-    padding-bottom: 120px;
-  }
-
-  .hero-intro {
-    font-size: 1.5rem;
-  }
-
-  .hero h1 {
-    font-size: 55px;
-    line-height: 1;
-  }
-
-  .hero-tagline {
-    font-size: 1.6rem;
-  }
-
-  .featured-blocks .col-3 h3 {
-    font-size: 40px;
-  }
-
-  .featured-blocks .col-3 p {
-    font-size: 20px;
-  }
-
-  .demo-vid iframe {
-    height: 380px !important;
-  }
-
-  .video-text {
-    padding: 75px 40px 40px;
-    margin-top: 0;
-  }
-
-  .video-text:after {
-    content: " ";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background: #f3f3f3;
-    -ms-transform-origin: bottom left;
-    transform-origin: bottom left;
-    -ms-transform: skew(12deg, 0deg);
-    -webkit-transform: skew(12deg, 0deg);
-    transform: skew(12deg, 0deg);
-  }
-  .text-demo h2 {
-    font-size: 3rem;
   }
 }
 
