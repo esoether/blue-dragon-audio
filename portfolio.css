@@ -1,0 +1,70 @@
+body {
+  background-color: #1B1B1B;
+}
+
+.card {
+  background-color: #282727;
+}
+.portfolio-area {
+  background: #f7f5f6 none repeat scroll 0 0;
+  overflow: hidden;
+  padding-top: 130px;
+}
+
+.portfolio-item-title h3  {
+  font-size: 20px;
+}
+
+.awesome-img img {
+  height: 150px;
+  width: 100%;
+}
+
+.tab-pane {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item-title .small {
+  font-size: 15px;
+}
+
+.awesome-info {
+  background-color: #282727;
+  padding: 0px 30px 12px;
+  width: 100%;
+  opacity:1;
+  display:block;
+
+}
+.awesome-info h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+.awesome-info p {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.section-heading{text-align:center}
+.section-heading h2 {
+  color: #666;
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+
+.awesome-portfolio-menu ul{text-align:center}
+.awesome-portfolio-menu ul li {
+  color: #888888;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0 4px;
+  transition: all 0.3s ease 0s;
+}
+
+img {max-width:100%;height:auto}

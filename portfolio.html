@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blue Dragon Audio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Lora&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Bootstrap core JS-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark px-4 sticky-top">
+        <!--LOGO-->
+        <img src="logo.png" class="navbar-logo" />
+
+        <!--NAV BUTTON-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggle"
+          aria-controls="navbarToggle"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="top-nav-button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--COLLAPSIBLE-->
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          <!--NAVBAR LEFT-->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                >Portfolio<span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+
+          <!--MIDDLE NAV TEXT-->
+          <!-- <a class="navbar-brand d-none d-md-block" href="#"><img src="logo.png" class="navbar-logo" /></a> -->
+
+          <!--NAVBAR RIGHT-->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Post-Production</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Credits</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link cta-button"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdaTkIMtPb2yQe3VSJ9J31Lc52FRAB2vZvd42y54l_jhCLtMA/viewform"
+                target="_blank"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="">
+      <div class="container-fluid portfolio-area">
+        <!-- section-heading start -->
+        <div class="container">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2><strong>PORTFOLIO</strong></h2>
+              <p>
+                Enjoy selected samples of my work below. To hear more, be sure
+                to check out my Post Production Demos.
+              </p>
+              <p>
+                Click the buttons below to filter portfolio projects by
+                category.
+              </p>
+            </div>
+            <div class="awesome-portfolio-menu pb-4">
+              <ul class="pl-0">
+                <li class="filter active">
+                  <a
+                    class="list-group-item list-group-item-action"
+                    id="list-games-list"
+                    data-toggle="list"
+                    href="#games"
+                    role="tab"
+                    aria-controls="games"
+                    >Video Games</a
+                  >
+                </li>
+                <li class="filter">
+                  <a
+                    class="list-group-item list-group-item-action"
+                    id="list-music-list"
+                    data-toggle="list"
+                    href="#music"
+                    role="tab"
+                    aria-controls="music"
+                    >Music</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- section-heading end -->
+      </div>
+      <!-- awesome-portfolio start -->
+      <div class="awesome-portfolio">
+        <div class="awesome-portfolio-content">
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane active d-flex"
+              id="games"
+              aria-labelledby="list-games-list"
+              role="tabpanel"
+            >
+              <!-- Project One -->
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3">
+                    <h3>World War Toons</h3>
+                    <p class="small-card-text">– Studio Roqovan</p>
+                  </div>
+                  <div class="awesome-info">
+                    <p>
+                      For this project, I served as audio director, overseeing
+                      all aspects of audio production and direction.
+                    </p>
+                    <p>
+                      In addition to creating every sound effect in the game, I
+                      was tasked with creating realistic soundscapes for use in
+                      VR, using both sound libraries and field recording
+                      techniques. As a title able to be played in both VR and
+                      non-VR versions, special care was taken to the creation of
+                      environmental sounds so as to still sound compelling in
+                      differing stereo fields.
+                    </p>
+                  </div>
+                  <div class="awesome-img">
+                    <iframe
+                      src="https://www.youtube.com/embed/79Gl5O2ZVIQ"
+                      frameborder="0"
+                      height="100%"
+                      width="100%"
+                      class="rounded mb-3 mb-md-0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+              <!-- End Project One -->
+              <!-- Project One -->
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3 ">
+                    <h3>Skull Girls 2nd Encore</h3>
+                    <p class="small-card-text">– Lab Zero Games</p>
+                  </div>
+
+                  <div class="awesome-info">
+                    <p>
+                      <em
+                        >"Hear Skullgirls' story as never before! Unlock all
+                        five additional characters: sing zombie opera with
+                        Squigly, and make beautiful music with Big Band! Unleash
+                        Eliza's skeletal Parasite, & howl at the moon with
+                        Beowulf! And, finally, learn why humans cry with
+                        Robo-Fortune. Skullgirls' excellent cast of voice actors
+                        bring the story to life like never before!"
+                      </em>
+                    </p>
+                    <p>
+                      For this project, I assisted in the editing, processing
+                      and delivery of voice over assets for the story mode and
+                      newly introduced characters.
+                    </p>
+                  </div>
+                  <div class="awesome-img">
+                    <iframe
+                      src="https://www.youtube.com/embed/SEIF5u3-9Z4"
+                      frameborder="0"
+                      height="100%"
+                      width="100%"
+                      class="rounded mb-3 mb-md-0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+              <!-- End Project One -->
+
+              <!-- Project One -->
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3">
+                    <h3>
+                      Regular Show: Mordecai & Rigby in 8-bit Land
+                    </h3>
+                    <p class="small-card-text">– WayForward Technologies</p>
+                  </div>
+
+                  <div class="awesome-info">
+                    <p>
+                      For this project, I served as audio lead, designing all
+                      sound effects and overseeing the sound direction across
+                      the various gameplay modes featured in this game.
+                    </p>
+                    <p>
+                      In addition to realistic soundscapes, I am also capable of
+                      capturing that retro sound many gamers still very much
+                      love! I designed all sound effects for this game
+                      (including the WayForward jingle) using a Nintendo Game
+                      Boy and Little Sound DJ (LSDJ) software.
+                    </p>
+                  </div>
+                  <div class="awesome-img">
+                    <iframe
+                      src="https://www.youtube.com/embed/EKZUDyhGH5I"
+                      frameborder="0"
+                      height="100%"
+                      width="100%"
+                      class="rounded mb-3 mb-md-0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+              <!-- End Project One -->
+
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3">
+                    <h3>
+                      Adventure Time: Explore the Dungeon Because I DON'T KNOW!
+                    </h3>
+                    <p class="small-card-text">– WayForward Technologies</p>
+                  </div>
+
+                  <div class="awesome-info">
+                    <p>
+                      For this project, I provided sound design, as well as
+                      voice over editing and additional voice over recording.
+                    </p>
+                    <p>
+                      This game provided a unique opportunity to create a sound
+                      closely in the spirit and style of the hit TV show, while
+                      also combining influences from popular dungeon crawlers of
+                      the 80s and 90s.
+                    </p>
+                    <p>
+                      This resulted in a variety of colorful and expressive
+                      sounds which bring the many different dungeonscapes to
+                      life!
+                    </p>
+                  </div>
+                  <div class="awesome-img">
+                    <iframe
+                      src="https://www.youtube.com/embed/gtEyfEd2ClA"
+                      frameborder="0"
+                      height="100%"
+                      width="100%"
+                      class="rounded mb-3 mb-md-0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <!-- End Project One -->
+              </div>
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3">
+                    <h3>
+                      The Smurfs 2
+                    </h3>
+                    <p class="small-card-text">– Ubisoft, WayForward</p>
+                  </div>
+
+                  <div class="awesome-info">
+                    <p>
+                      <em
+                        >"The Smurfs 2 is one of the summer’s top animated
+                        family movies and is now a hit video game too! In The
+                        Smurfs 2 video game, the evil wizard Gargamel has
+                        created the Naughties, and together they travel to Smurf
+                        Village, kidnap Smurfette, and imprison her in Paris.
+                        It’s now up to Papa Smurf and friends to travel from the
+                        Enchanted Forest, through the streets of New York, into
+                        Paris, and everywhere in between to save the day and
+                        bring Smurfette home safe!"</em
+                      >
+                    </p>
+                    <p>
+                      For this project, I provided additional sound design and
+                      voice localization assistance. I also provided the voice
+                      of Clockwork Smurf for the Wii U version of the game!
+                    </p>
+                  </div>
+                  <div class="awesome-img">
+                    <img
+                      src="https://i.ytimg.com/vi/KmfRwFPnRo8/maxresdefault.jpg"
+                      frameborder="0"
+                      class="img-fluid rounded mb-3 mb-md-0"
+                    />
+                  </div>
+                </div>
+                <!-- End Project One -->
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane"
+            id="music"
+            aria-labelledby="list-music-list"
+            role="tabpanel"
+          ></div>
+        </div>
+        <!-- awesome-portfolio end -->
+      </div>
+    </div>
+  </body>
+</html>

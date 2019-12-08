@@ -3,6 +3,49 @@ nav {
   height: 85px;
 }
 
+.after-header {
+  margin-top: 120px;
+}
+
+.card-row {
+  padding: 20px 0px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.card-row h3 {
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #00BCDD;
+  font-size: 1.5rem;
+}
+
+.small-card-text {
+  font-size: 12px;
+}
+
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (min-width: 767px) {
+  .card-row {
+    margin: 0px;
+    font-size: 1rem;
+  }
+  .card-row iframe {
+    height: 300px;
+  }
+
+  .above-portfolio {
+    text-align: left!important;
+  }
+
+  .above-portfolio .pagination {
+    justify-content: left!important;
+  }
+}
+
 body {
   background-color: #272828;
   font-family: "Lora", serif;
@@ -55,7 +98,6 @@ h2 {
 .social-hero a {
   color: #9fa5aa !important;
   text-decoration: none;
-
 }
 
 .social-hero i {
