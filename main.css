@@ -11,6 +11,23 @@ nav {
   font-size: 1.6rem;
 }
 
+.intro-area ul {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.intro-area li {
+  list-style: none;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.intro-area i {
+  font-size: 35px;
+  margin-right: 10px;
+}
+
 .after-header {
   margin-top: 120px;
 }
@@ -24,7 +41,7 @@ nav {
 .card-row h3 {
   font-weight: 700;
   letter-spacing: 2px;
-  color: #00BCDD;
+  color: #00bcdd;
   font-size: 1.5rem;
 }
 
@@ -37,6 +54,10 @@ hr {
 }
 
 @media screen and (min-width: 767px) {
+  .intro-area .col-12 ul {
+    padding-left: 10vw;
+  }
+
   .hero {
     padding-bottom: 120px;
   }
