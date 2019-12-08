@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Blue Dragon Audio</title>
+
+    <!--BOOTSTRAP-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -12,13 +14,20 @@
       crossorigin="anonymous"
     />
 
+    <!--FONT AWESOME-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <!--FONTS-->
     <link
       href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Lora&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
       rel="stylesheet"
     />
 
@@ -33,24 +42,26 @@
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
+
+    <!--BOOTSTRAP JS-->
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="main.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
-      rel="stylesheet"
-    />
+    <!--MAIN CSS-->
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/demos.css" />
   </head>
   <body>
+    <!----------
+      - HEADER -
+    ----------->
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-dark px-4 sticky-top">
         <!--LOGO-->
-        <img src="logo.png" class="navbar-logo" />
+        <img src="../img/logo.png" class="navbar-logo" />
 
         <!--NAV BUTTON-->
         <button
@@ -71,28 +82,21 @@
           <!--NAVBAR LEFT-->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="../../index.html">Home </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Portfolio<span class="sr-only">(current)</span></a
+              >
             </li>
           </ul>
-
-          <!--MIDDLE NAV TEXT-->
-          <!-- <a class="navbar-brand d-none d-md-block" href="#"><img src="logo.png" class="navbar-logo" /></a> -->
-
           <!--NAVBAR RIGHT-->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Post-Production</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Credits</a>
+              <a class="nav-link" href="demos.html">Post-Production</a>
             </li>
             <li class="nav-item">
               <a
@@ -106,558 +110,219 @@
         </div>
       </nav>
     </header>
-    <div class="container marketing text-center">
-      <div class="section-heading">
-        <h2><strong>PORTFOLIO</strong></h2>
-        <p>
-          Enjoy selected samples of my work below. To hear more, be sure to
-          check out my Post Production Demos.
-        </p>
-        <p>
-          Click the buttons below to filter portfolio projects by category.
-        </p>
+
+    <div class="">
+      <div class="container-fluid portfolio-area">
+        <!-- section-heading start -->
+        <div class="container">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2><strong>Post-Production Demos</strong></h2>
+              <p>
+                Below are some demos I have provided to show proficiency in
+                various areas of audio post production.
+              </p>
+              <p>
+                To hear more, be sure to check out my Portfolio.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- section-heading end -->
       </div>
-      <div
-        id="list-tab"
-        role="tablist"
-        class="list-group text-right pt-4 pb-4"
-        style="flex-direction: row;"
-      >
-        <a
-          id="list-sign-list"
-          data-toggle="list"
-          href="#list-signs"
-          role="tab"
-          aria-controls="signs"
-          class="list-group-item list-group-item-action active"
-          >Games</a
-        >
-        <a
-          id="list-planets-list"
-          data-toggle="list"
-          href="#list-planets"
-          role="tab"
-          aria-controls="planets"
-          class="list-group-item list-group-item-action"
-          >Music</a
-        >
-      </div>
-      <div id="nav-tabContent" class="tab-content text-dark row pt-2">
-        <div
-          id="list-signs"
-          aria-labelledby="list-signs-list"
-          role="tabpanel"
-          class="tab-pane active flex-list"
-        >
-          <div class="col-4 col-md-3 col-lg-2 pb-4 pt-2">
-            <img
-              src="img/signs/Aries.svg"
-              alt="Generic placeholder image"
-              width="50%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3 class="mb-0">Aries</h3>
-            <p class="para-med mb-0 text-muted">
-              Cardinal Fire
-            </p>
-            <p class="para-small font-weight-bold mb-1">
-              Mar 21 - Apr 19
-            </p>
-            <p class="para-small mb-2 text-muted">
-              "I am."
-            </p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
+      <!-- awesome-portfolio start -->
+      <div class="awesome-portfolio">
+        <div class="awesome-portfolio-content">
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane active d-flex"
+              id="games"
+              aria-labelledby="list-games-list"
+              role="tabpanel"
+            >
+              <!-- Project One -->
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3 mb-2">
+                    <h3>World War Toons – Cinematic Trailer</h3>
+                  </div>
+                  <div class="awesome-info">
+                    <p>
+                      Cinematic trailer for World War Toons, a game I served as
+                      audio director for.
+                    </p>
+                    <p>
+                      I provided all sound design and mixing for this video.
+                    </p>
+                  </div>
+
+                  <iframe
+                    width="100%"
+                    height="250"
+                    src="https://www.youtube.com/embed/Zor6qyTZB8w"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <!-- End Project One -->
+              <!-- Project One -->
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3 mb-2">
+                    <h3>World War Toons – PSX Trailer</h3>
+                  </div>
+                  <div class="awesome-info">
+                    <p>
+                      I assisted in engineering this recording session alongside
+                      the legendary Dale "D-Wiz" Everingham.
+                    </p>
+
+                    <p>I also provided all sound design for this trailer!</p>
+                  </div>
+
+                  <iframe
+                    width="100%"
+                    height="250"
+                    src="https://www.youtube.com/embed/QJ95G9I6GMQ"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <!-- End Project One -->
+
+              <!-- Project One -->
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3">
+                    <h3>
+                      Regular Show: Mordecai & Rigby in 8-bit Land
+                    </h3>
+                    <p class="small-card-text">– WayForward Technologies</p>
+                  </div>
+
+                  <div class="awesome-info">
+                    <p>
+                      For this project, I served as audio lead, designing all
+                      sound effects and overseeing the sound direction across
+                      the various gameplay modes featured in this game.
+                    </p>
+                    <p>
+                      In addition to realistic soundscapes, I am also capable of
+                      capturing that retro sound many gamers still very much
+                      love! I designed all sound effects for this game
+                      (including the WayForward jingle) using a Nintendo Game
+                      Boy and Little Sound DJ (LSDJ) software.
+                    </p>
+                  </div>
+                  <div class="awesome-img">
+                    <iframe
+                      src="https://www.youtube.com/embed/EKZUDyhGH5I"
+                      frameborder="0"
+                      height="100%"
+                      width="100%"
+                      class="rounded mb-3 mb-md-0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+              <!-- End Project One -->
+
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3">
+                    <h3>
+                      Adventure Time: Explore the Dungeon Because I DON'T KNOW!
+                    </h3>
+                    <p class="small-card-text">– WayForward Technologies</p>
+                  </div>
+
+                  <div class="awesome-info">
+                    <p>
+                      For this project, I provided sound design, as well as
+                      voice over editing and additional voice over recording.
+                    </p>
+                    <p>
+                      This game provided a unique opportunity to create a sound
+                      closely in the spirit and style of the hit TV show, while
+                      also combining influences from popular dungeon crawlers of
+                      the 80s and 90s.
+                    </p>
+                    <p>
+                      This resulted in a variety of colorful and expressive
+                      sounds which bring the many different dungeonscapes to
+                      life!
+                    </p>
+                  </div>
+                  <div class="awesome-img">
+                    <iframe
+                      src="https://www.youtube.com/embed/gtEyfEd2ClA"
+                      frameborder="0"
+                      height="100%"
+                      width="100%"
+                      class="rounded mb-3 mb-md-0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <!-- End Project One -->
+              </div>
+              <div class="single-awesome-portfolio col-12 col-md-4">
+                <div class="card my-4 mx-2">
+                  <div class="portfolio-item-title text-light pt-4 px-3">
+                    <h3>
+                      The Smurfs 2
+                    </h3>
+                    <p class="small-card-text">– Ubisoft, WayForward</p>
+                  </div>
+
+                  <div class="awesome-info">
+                    <p>
+                      <em
+                        >"The Smurfs 2 is one of the summer’s top animated
+                        family movies and is now a hit video game too! In The
+                        Smurfs 2 video game, the evil wizard Gargamel has
+                        created the Naughties, and together they travel to Smurf
+                        Village, kidnap Smurfette, and imprison her in Paris.
+                        It’s now up to Papa Smurf and friends to travel from the
+                        Enchanted Forest, through the streets of New York, into
+                        Paris, and everywhere in between to save the day and
+                        bring Smurfette home safe!"</em
+                      >
+                    </p>
+                    <p>
+                      For this project, I provided additional sound design and
+                      voice localization assistance. I also provided the voice
+                      of Clockwork Smurf for the Wii U version of the game!
+                    </p>
+                  </div>
+                  <div class="awesome-img">
+                    <img
+                      src="https://i.ytimg.com/vi/KmfRwFPnRo8/maxresdefault.jpg"
+                      frameborder="0"
+                      class="img-fluid rounded mb-3 mb-md-0"
+                    />
+                  </div>
+                </div>
+                <!-- End Project One -->
+              </div>
+            </div>
           </div>
-          <div class="col-4 col-md-3 col-lg-2 pb-4 pt-2">
-            <img
-              src="img/signs/Taurus.svg"
-              alt="Generic placeholder image"
-              width="50%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3 class="mb-0">Taurus</h3>
-            <p class="para-med mb-0 text-muted">
-              Fixed Earth
-            </p>
-            <p class="para-small font-weight-bold mb-1">
-              Apr 20 - May 20
-            </p>
-            <p class="para-small mb-2 text-muted">
-              "I have."
-            </p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div class="col-4 col-md-3 col-lg-2 pb-4 pt-2 ">
-            <img
-              src="img/signs/Gemini.svg"
-              alt="Generic placeholder image"
-              width="50%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3 class="mb-0">Gemini</h3>
-            <p class="para-med mb-0 text-muted">
-              Mutable Air
-            </p>
-            <p class="para-small font-weight-bold mb-1">
-              May 21 - Jun 20
-            </p>
-            <p class="para-small mb-2 text-muted">
-              "I think."
-            </p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div class="col-4 col-md-3 col-lg-2 pb-4 pt-2">
-            <img
-              src="img/signs/Cancer.svg"
-              alt="Generic placeholder image"
-              width="50%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3 class="mb-0">Cancer</h3>
-            <p class="para-med mb-0 text-muted">
-              Cardinal Water
-            </p>
-            <p class="para-small font-weight-bold mb-1">
-              Jun 21 - Jul 22
-            </p>
-            <p class="para-small mb-2 text-muted">
-              "I feel."
-            </p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div class="col-4 col-md-3 col-lg-2 pb-4 pt-2">
-            <img
-              src="img/signs/Leo.svg"
-              alt="Generic placeholder image"
-              width="50%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3 class="mb-0">Leo</h3>
-            <p class="para-med mb-0 text-muted">
-              Fixed Fire
-            </p>
-            <p class="para-small font-weight-bold mb-1">
-              Jul 23 - Aug 22
-            </p>
-            <p class="para-small mb-2 text-muted">
-              "I will."
-            </p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div class="col-4 col-md-3 col-lg-2 pb-4 pt-2">
-            <img
-              src="img/signs/Virgo.svg"
-              alt="Generic placeholder image"
-              width="50%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3 class="mb-0">Virgo</h3>
-            <p class="para-med mb-0 text-muted">
-              Mutable Earth
-            </p>
-            <p class="para-small font-weight-bold mb-1">
-              Aug 23 - Sep 22
-            </p>
-            <p class="para-small mb-2 text-muted">
-              "I analyze."
-            </p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
+
           <div
-            class="col-4 col-md-3 col-lg-2 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <img
-              src="img/signs/Libra.svg"
-              alt="Generic placeholder image"
-              width="50%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3 class="mb-0">Libra</h3>
-            <p class="para-med mb-0 text-muted">
-              Cardinal Air
-            </p>
-            <p class="para-small font-weight-bold mb-1">
-              Sep 23 - Oct 22
-            </p>
-            <p class="para-small mb-2 text-muted">
-              "I balance."
-            </p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-3 col-lg-2 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <img
-              src="img/signs/Scorpio.svg"
-              alt="Generic placeholder image"
-              width="50%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3 class="mb-0">Scorpio</h3>
-            <p class="para-med mb-0 text-muted">
-              Fixed Water
-            </p>
-            <p class="para-small font-weight-bold mb-1">
-              Oct 23 - Nov 21
-            </p>
-            <p class="para-small mb-2 text-muted">
-              "I desire."
-            </p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
+            class="tab-pane"
+            id="music"
+            aria-labelledby="list-music-list"
+            role="tabpanel"
+          ></div>
         </div>
-        <div
-          id="list-planets"
-          aria-labelledby="list-planets-list"
-          role="tabpanel"
-          class="tab-pane flex-list"
-        >
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Sun.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Sun</h3>
-            <p class="para-small">30 days</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Moon.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Moon</h3>
-            <p class="para-small">2.5 days</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Mercury.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Mercury</h3>
-            <p class="para-small">14-30 days</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Mars.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Mars</h3>
-            <p class="para-small">1.5 months</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Venus.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Venus</h3>
-            <p class="para-small">23-64 days</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Jupiter.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Jupiter</h3>
-            <p class="para-small">1 year</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Pluto.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Pluto</h3>
-            <p class="para-small">14-30 years</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Uranus.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Uranus</h3>
-            <p class="para-small">7 years</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Neptune.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Neptune</h3>
-            <p class="para-small">14 years</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-          <div class="col-4 col-md-4 col-lg-2 pb-2 pt-2">
-            <img
-              src="img/luminaries/Saturn.svg"
-              alt="Generic placeholder image"
-              width="40%"
-              height="auto"
-              class="pb-2 zodiac-img"
-            />
-            <h3>Saturn</h3>
-            <p class="para-small">2.5 years</p>
-            <p class="zodiac-btn">
-              <a href="#" role="button" class="btn btn-secondary">More »</a>
-            </p>
-          </div>
-        </div>
-        <div
-          id="list-houses"
-          aria-labelledby="list-houses-list"
-          role="tabpanel"
-          class="tab-pane"
-        >
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅰ</span>
-            <h3 class="mb-0">1st</h3>
-            <p class="para-med text-muted">Self &amp; Identity</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅱ</span>
-            <h3 class="mb-0">2nd</h3>
-            <p class="para-med text-muted">Values &amp; Possessions</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅲ</span>
-            <h3 class="mb-0">3rd</h3>
-            <p class="para-med text-muted">Mind &amp; Learning</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅳ</span>
-            <h3 class="mb-0">4th</h3>
-            <p class="para-med text-muted">Home &amp; Family</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅴ</span>
-            <h3 class="mb-0">5th</h3>
-            <p class="para-med text-muted">Creativity &amp; Children</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅵ</span>
-            <h3 class="mb-0">6th</h3>
-            <p class="para-med text-muted">Health &amp; Routine</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅶ</span>
-            <h3 class="mb-0">7th</h3>
-            <p class="para-med text-muted">Relationships/ Partnerships</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅷ</span>
-            <h3 class="mb-0">8th</h3>
-            <p class="para-med text-muted">Sex, Power, Death, Debts</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅸ</span>
-            <h3 class="mb-0">9th</h3>
-            <p class="para-med text-muted">Religion &amp; Philosophy</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅹ</span>
-            <h3 class="mb-0">10th</h3>
-            <p class="para-med text-muted">Career &amp; Authority</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅺ</span>
-            <h3 class="mb-0">11th</h3>
-            <p class="para-med text-muted">Networks &amp; Community</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-          <div
-            class="col-4 col-md-4 col-lg-3 pb-4 pt-2"
-            style="display: flex; flex-direction: column;"
-          >
-            <span class="display-4">Ⅻ</span>
-            <h3 class="mb-0">12th</h3>
-            <p class="para-med text-muted">Spirituality &amp; Sacrifice</p>
-            <p class="zodiac-btn">
-              <a href="/signdetail.html" role="button" class="btn btn-secondary"
-                >More »</a
-              >
-            </p>
-          </div>
-        </div>
+        <!-- awesome-portfolio end -->
       </div>
     </div>
   </body>

@@ -8,7 +8,7 @@ body {
 .portfolio-area {
   background: #f7f5f6 none repeat scroll 0 0;
   overflow: hidden;
-  padding-top: 130px;
+  padding-top: 120px;
 }
 
 .portfolio-item-title h3  {
@@ -47,7 +47,7 @@ body {
   font-size: 12px;
 }
 
-.section-heading{text-align:center}
+.section-heading{text-align:center; padding-bottom: 40px;}
 .section-heading h2 {
   color: #666;
   font-size: 45px;
