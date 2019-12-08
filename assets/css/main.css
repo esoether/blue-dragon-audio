@@ -206,7 +206,8 @@ footer ul i:hover {
 * INTRO SECTION *
 ****************/
 .intro-area {
-  background-color: #282727;
+  background-color: red;
+  margin-bottom: 3rem;
 }
 
 .intro-area h2 {
