@@ -113,7 +113,7 @@ hr {
 * HERO SECTION *
 ***************/
 .hero {
-  background-image: url("bg.jpg");
+  background-image: url('https://cdn3.imggmi.com/uploads/2019/12/8/c729d0c9ecea4552006a8fd1daff27d1-full.jpg');
   background-size: cover;
   padding-bottom: 40px;
 }
@@ -280,7 +280,7 @@ h2 {
   }
 
   .demo-vid iframe {
-    min-height: 375px !important;
+    min-height: 380px !important;
   }
 
   .video-text {
