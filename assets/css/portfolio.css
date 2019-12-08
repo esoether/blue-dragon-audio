@@ -12,7 +12,10 @@
 
 .tab-content > .active {
   display: flex !important;
-  background: -webkit-linear-gradient(rgb(9, 206, 220), #3e87e6)!important;
+}
+
+#list-tab .list-group-item.active {
+  background: -webkit-linear-gradient(rgb(9, 206, 220), #3e87e6) !important;
 }
 
 .main-portfolio h5 {
