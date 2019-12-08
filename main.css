@@ -113,7 +113,7 @@ hr {
 * HERO SECTION *
 ***************/
 .hero {
-  background-image: url("assets/img/bg.jpg");
+  background-image: url("bg.jpg");
   background-size: cover;
   padding-bottom: 40px;
 }
