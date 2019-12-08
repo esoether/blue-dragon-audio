@@ -29,8 +29,6 @@ hr {
   color: #9fa5aa !important;
 }
 
-
-
 /**************
 * CTA BUTTONS *
 **************/
@@ -79,8 +77,6 @@ hr {
   background-color: #00bcdd;
 }
 
-
-
 /*********
 * NAVBAR *
 *********/
@@ -107,13 +103,11 @@ hr {
   margin: 0 auto;
 }
 
-
-
 /***************
 * HERO SECTION *
 ***************/
 .hero {
-  background-image: url('https://cdn3.imggmi.com/uploads/2019/12/8/c729d0c9ecea4552006a8fd1daff27d1-full.jpg');
+  background-image: url("../img/bg.jpg");
   background-size: cover;
   padding-bottom: 40px;
 }
@@ -143,7 +137,8 @@ h2 {
   font-size: 1.3rem;
 }
 
-.social-hero a {
+.social-hero a,
+footer ul a {
   color: #9fa5aa !important;
   text-decoration: none;
 }
@@ -154,12 +149,11 @@ h2 {
 }
 
 .social-hero i:hover,
-.social-about i:hover {
+.social-about i:hover,
+footer ul i:hover {
   color: rgb(93, 203, 211);
   cursor: pointer;
 }
-
-
 
 /******************
 * FEATURED BLOCKS *
@@ -176,8 +170,6 @@ h2 {
 .featured-blocks .col-3:first-child {
   border-left: none !important;
 }
-
-
 
 /***************
 * DEMO SECTION *
@@ -210,8 +202,6 @@ h2 {
   height: 200px;
 }
 
-
-
 /****************
 * INTRO SECTION *
 ****************/
@@ -240,7 +230,25 @@ h2 {
   margin-right: 10px;
 }
 
+/*********
+* FOOTER *
+*********/
+footer {
+  background-color: #1b1b1b;
+}
 
+footer h2 {
+  font-size: 25px;
+}
+
+footer i {
+  margin-right: 20px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #00bcdd!important;
+}
 
 /****************
 * MEDIA QUERIES *
@@ -309,17 +317,6 @@ h2 {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 567px) {
   .hero {
     padding-bottom: 100px;
@@ -375,7 +372,7 @@ h2 {
 
 .flex-list {
   width: 100%;
-  display: flex!important;
+  display: flex !important;
   flex-wrap: wrap;
 }
 
